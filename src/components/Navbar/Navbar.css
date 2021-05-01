@@ -1,0 +1,28 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  background-color: #447cbc;
+  height: 4rem;
+  padding: 0 1rem;
+}
+
+.nav__items{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+
+.nav__link{
+  text-decoration: none;
+}
+
+.nav__text{
+  color: #fefefe;
+  font-size: 1.5rem;
+}
+
+.nav__text--bold{
+  font-weight: bold;
+}

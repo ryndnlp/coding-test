@@ -1,0 +1,9 @@
+.action-button{
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: #94a6b4;
+  color: white;
+}

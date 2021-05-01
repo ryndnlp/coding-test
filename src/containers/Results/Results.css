@@ -1,0 +1,14 @@
+.results{
+  padding: 1rem;
+  border: 3px lightgray solid;
+}
+
+.results__title{
+  margin-bottom: 1rem;
+}
+
+.results__container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

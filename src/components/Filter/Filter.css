@@ -1,0 +1,22 @@
+.filter{
+
+}
+
+.filter__form{
+  display: flex;
+  align-items: flex-end;
+  margin: 1rem 0;
+  gap: 2rem;
+}
+
+.filter__input{
+  display: block;
+  min-width: 400px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 2px lightgray solid;
+}
+
+.filter__label{
+  font-weight: 500;
+}

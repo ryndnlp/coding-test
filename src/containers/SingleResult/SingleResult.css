@@ -1,0 +1,41 @@
+.single-result{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px lightgray solid;
+  padding-bottom: 0.5rem;
+}
+
+.single-result:first-child{
+  padding-top: 0.5rem;
+  border-top:  2px lightgray solid;
+}
+
+.single-result__left-column{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.single-result__right-column{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.single-result__title{
+  color:#447cbc;
+  font-weight: 500;
+}
+
+.single-result__company{
+  color: gray;
+}
+
+.single-result__type{
+  color: green;
+}
+
+.single-result__created-at{
+  color: gray;
+}
